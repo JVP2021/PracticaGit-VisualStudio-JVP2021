@@ -40,10 +40,11 @@ namespace WindowsFormsApp1
             else
             {
                 miAlumnoNotaTexto = "Sobresaliente";
-                miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\n";
+            }
+                miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " + miAlumnoNotaTexto + "\r\n";
                 listaAlumnos.AppendText(miAlumnoStr);
                 misAlumnos.Agregar(miAlumno);
-            }
+            
         }
     }
 }
